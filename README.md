@@ -21,4 +21,4 @@ As written, the code will
 2. Sample `a0` `samps` times (`samps` = 100 by default).
 3. Average `samp'samples.
 4. Send a JSON string of the average over serial when the above is done, along with the time it took to sample `samps` samples.
-5. Listen for a JSON message over the serial port that allows you to change what `samps` is. There's no persistent storage; `samps` will revert to 100 on reset.
+5. Listen for a JSON message over the serial port that allows you to set `samps` as required while running. There's no persistent storage; `samps` will revert to 100 on reset.
